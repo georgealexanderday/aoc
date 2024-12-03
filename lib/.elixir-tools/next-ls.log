@@ -1,0 +1,251 @@
+
+21:04:03.725 [info] Loading 154 CA(s) from :otp store
+
+21:04:03.839 id=0 [debug] handled request client -> server initialize in 74ms
+
+21:04:03.843 [debug] sent notification server -> client window/logMessage
+
+21:04:03.845 [debug] NextLS v0.23.1 has initialized!
+
+21:04:03.845 [debug] sent notification server -> client window/logMessage
+
+21:04:03.845 [debug] Log file located at /Users/georgeday/nightfury/elixir/aoc/lib/.elixir-tools/next-ls.log
+
+21:04:03.846 [debug] sent notification server -> client window/logMessage
+
+21:04:03.846 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+21:04:03.846 id=3 [debug] sent request server -> client client/registerCapability
+
+21:04:04.029 [debug] sent notification server -> client window/logMessage
+
+21:04:04.029 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"", 1}
+    (next_ls 0.23.1) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.1) lib/next_ls.ex:874: NextLS.handle_notification/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:478: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:474: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.0) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+
+21:04:04.029 [debug] sent notification server -> client window/logMessage
+
+21:04:04.029 [debug] Booting runtimes...
+
+21:04:04.033 id=35 [debug] sent request server -> client window/workDoneProgress/create
+
+21:04:04.040 [debug] sent notification server -> client $/progress
+
+21:04:04.051 [debug] sent notification server -> client window/logMessage
+
+21:04:04.051 [info] Beginning DB migration...
+
+21:04:04.055 [debug] sent notification server -> client window/logMessage
+
+21:04:04.055 [info] Database is on the latest version: 7
+
+21:04:04.055 [debug] sent notification server -> client window/logMessage
+
+21:04:04.055 [info] Finished DB migration...
+
+21:04:04.055 [debug] sent notification server -> client window/logMessage
+
+21:04:04.055 [info] Booting runtime for aoc.
+
+- elixir: /Users/georgeday/.local/share/mise/installs/elixir/latest/bin/elixir
+- zombie wrapper script: /nix/store/53wkd3plmn9sxwzdagxirpwp4g9gcrfc-next-ls-0.23.1/lib/next_ls-0.23.1/priv/cmd
+- working_dir: /Users/georgeday/nightfury/elixir/aoc
+- command: /Users/georgeday/.local/share/mise/installs/elixir/latest/bin/elixir --no-halt --sname nextls-runtime-1733259844055729334 --cookie LIZH5DKVGKTQUDRKN3LGIKP5KRPVE2A7EBOV4JMU7OPOLAHL3UTQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3LG5leHQtbHMtMTczMzI1OTg0MzczNjYzNjEyNUBuaWdodGZ1cnktZGFyd2luAAAA1AAAAABnT3JE
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/georgeday/.local/share/mise/installs/elixir/latest/bin:/nix/store/53wkd3plmn9sxwzdagxirpwp4g9gcrfc-next-ls-0.23.1/bin:/nix/store/pldbvp0p2z2pa76h17g797vvk201155r-coreutils-9.5/bin:/nix/store/784lk2i72i7q4c0dpl1ig5dr9y9q9spr-gnused-4.9/bin:/nix/store/hcildd3gk5rr3ld6k9zwi5rxk2pq9c17-gnugrep-3.11/bin:/nix/store/v91lg28v8cf7b7xwblc8l1167psarji6-gawk-5.2.2/bin:/nix/store/92imkakl854dfvqjl1z8jmsxjrg1mh6f-file-5.45/bin:/nix/store/1ayrnq8zpljx4m3kvgfs6kqv9vrm6zik-jq-1.7.1-bin/bin:/nix/store/yz43734ghhirj7wawv0sikj4hnnh1yg6-poppler-utils-24.02.0/bin:/nix/store/gxv3lw152sm9pqvvlhzfw4klbsgv0vsh-7zz-24.08/bin:/nix/store/zf2yjzphk5y67jssqdj49i450i50p5q3-ffmpegthumbnailer-unstable-2024-01-04/bin:/nix/store/82v1i8k638rvnmk9p77wv3b6c9phvndh-fd-10.2.0/bin:/nix/store/jnyzzwi0n9nbwzqxq9j9qsv7qjqdlnri-ripgrep-14.1.1/bin:/nix/store/xwh5mndpjd683kx67zq88jrm9f6jn03a-fzf-0.56.2/bin:/nix/store/glnz3wpyr2gyjyd6d6ay3ybgw7pdbs25-zoxide-0.9.6/bin:/nix/store/9bjcb5bv73wpimd59f4wkfpv2ykkygdf-imagemagick-7.1.1-40/bin:/nix/store/xrm65623r8hgwjcc69g277kkvrvv3g1f-chafa-1.14.5/bin:/Users/georgeday/.local/share/mise/installs/elixir/latest/bin:/Users/georgeday/.local/share/mise/installs/elixir/latest/.mix/escripts:/Users/georgeday/.local/share/mise/installs/erlang/latest/bin:/Users/georgeday/.local/share/mise/installs/python/3.10/bin:/Users/georgeday/.local/share/mise/installs/python/3.11/bin:/Users/georgeday/.local/share/mise/installs/python/3.12/bin:/Users/georgeday/nix/scripts/sh:/Users/georgeday/.local/bin:/nix/store/89vw1yap7v83n4409481ah6r9ay0j6z8-elixir-1.17.3/bin:/nix/store/v39c0h6xv6hvki2k1bsyp5n090q8y2bp-clang-wrapper-16.0.6/bin:/nix/store/44hqr4414m3jldixkm4cq47q5pnpy83d-clang-16.0.6/bin:/nix/store/5g6np23z9q7vwwp1s5pxkgn8f8wrmihh-coreutils-9.5/bin:/nix/store/jqy6x4li0s729q6q97qmzrqwjfi567bv-cctools-binutils-darwin-wrapper-1010.6/bin:/nix/store/c02f0lj5xqjaw1c6hg9a9sv1b024mi8q-cctools-binutils-darwin-1010.6/bin:/nix/store/3a99nvsn1jh7h3vklnd8py5jplls9q41-xcbuild-0.1.1-unstable-2019-11-20-xcrun/bin:/nix/store/iwbpxcjz1s816d80sqg0mxg5p8m0dqak-libiconv-107/bin:/nix/store/zxz2b4dlg9zz8dcrwa2my1bpyxpfcchj-findutils-4.10.0/bin:/nix/store/xnm74pr7sl0jvn2q8fcr4jy3vrdgyqrn-diffutils-3.10/bin:/nix/store/9m372k9wy0f9aj54zhvsr65w2p9ndwnj-gnused-4.9/bin:/nix/store/ay0r3wrwbv5rq3mg3vhla045yjr49gka-gnugrep-3.11/bin:/nix/store/5q48fvg6grf5zsk106cm0k0hbfc1dfp2-gawk-5.3.1/bin:/nix/store/41dh2jr0d4ixcbjvkw72hqvrj0kv3mfh-gnutar-1.35/bin:/nix/store/jnnmwj5nsh4y8avg72q23nshq5z74pck-gzip-1.13/bin:/nix/store/5vs5hn675fwynba3didxxyvk8v0ji2bl-bzip2-1.0.8-bin/bin:/nix/store/0gqbh56qwj0cxmvl7dajic9mkbc26ilc-gnumake-4.4.1/bin:/nix/store/sk8z3kdy6iaky6sg972k6fkh3iw2rn3d-bash-5.2p37/bin:/nix/store/i8yd551zdvdx0gg9mxg5ky6znqaflnkd-patch-2.7.6/bin:/nix/store/kv4wl884saw5jjch5kg4zvcrpff6dlh9-xz-5.6.3-bin/bin:/Users/georgeday/nightfury/elixir/aoc/.direnv/bin:/Users/georgeday/nix/scripts/sh:/Users/georgeday/.local/bin:/Users/georgeday/.nix-profile/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin:/Users/georgeday/.orbstack/bin:/Users/georgeday/go/bin:/Users/georgeday/go/bin/:/Users/georgeday/.rd/bin:/Users/georgeday/go/bin:/Users/georgeday/go/bin/:/Users/georgeday/.rd/bin
+
+
+21:04:04.056 [debug] handled notification client -> server initialized in 215ms
+
+21:04:04.058 [debug] handled notification client -> server workspace/didChangeConfiguration in 2ms
+
+21:04:04.060 [debug] handled notification client -> server textDocument/didOpen in 2ms
+
+21:04:04.340 [debug] sent notification server -> client window/logMessage
+
+21:04:04.340 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: {:error, :not_ready}
+    (next_ls 0.23.1) lib/next_ls.ex:633: anonymous fn/5 in NextLS.handle_request/2
+    (next_ls 0.23.1) lib/next_ls.ex:1357: anonymous fn/4 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/enum.ex:2531: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (next_ls 0.23.1) lib/next_ls.ex:1356: anonymous fn/5 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/registry.ex:488: Registry.dispatch/4
+    (next_ls 0.23.1) lib/next_ls.ex:1354: NextLS.dispatch_to_workspace/3
+    (next_ls 0.23.1) lib/next_ls.ex:632: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+
+
+21:04:04.347 id=1 [debug] handled request client -> server textDocument/completion in 18ms
+
+21:04:04.441 [debug] handled notification client -> server textDocument/didChange in 3ms
+
+21:04:04.550 [debug] handled notification client -> server textDocument/didChange in 96µs
+
+21:04:04.683 [debug] handled notification client -> server textDocument/didChange in 119µs
+
+21:04:04.936 [debug] sent notification server -> client window/logMessage
+
+21:04:04.936 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: {:error, :not_ready}
+    (next_ls 0.23.1) lib/next_ls.ex:633: anonymous fn/5 in NextLS.handle_request/2
+    (next_ls 0.23.1) lib/next_ls.ex:1357: anonymous fn/4 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/enum.ex:2531: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (next_ls 0.23.1) lib/next_ls.ex:1356: anonymous fn/5 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/registry.ex:488: Registry.dispatch/4
+    (next_ls 0.23.1) lib/next_ls.ex:1354: NextLS.dispatch_to_workspace/3
+    (next_ls 0.23.1) lib/next_ls.ex:632: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+
+
+21:04:04.936 id=2 [debug] handled request client -> server textDocument/completion in 1ms
+
+21:04:05.536 [debug] handled notification client -> server textDocument/didChange in 343µs
+
+21:04:05.788 [debug] sent notification server -> client window/logMessage
+
+21:04:05.788 id=3 [debug] handled request client -> server textDocument/completion in 1ms
+
+21:04:05.788 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: {:error, :not_ready}
+    (next_ls 0.23.1) lib/next_ls.ex:633: anonymous fn/5 in NextLS.handle_request/2
+    (next_ls 0.23.1) lib/next_ls.ex:1357: anonymous fn/4 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/enum.ex:2531: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (next_ls 0.23.1) lib/next_ls.ex:1356: anonymous fn/5 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/registry.ex:488: Registry.dispatch/4
+    (next_ls 0.23.1) lib/next_ls.ex:1354: NextLS.dispatch_to_workspace/3
+    (next_ls 0.23.1) lib/next_ls.ex:632: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+
+
+21:04:06.254 [debug] handled notification client -> server textDocument/didChange in 256µs
+
+21:04:06.507 [debug] sent notification server -> client window/logMessage
+
+21:04:06.508 id=4 [debug] handled request client -> server textDocument/completion in 1ms
+
+21:04:06.508 [warning] Failed to run completion request: ** (MatchError) no match of right hand side value: {:error, :not_ready}
+    (next_ls 0.23.1) lib/next_ls.ex:633: anonymous fn/5 in NextLS.handle_request/2
+    (next_ls 0.23.1) lib/next_ls.ex:1357: anonymous fn/4 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/enum.ex:2531: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (next_ls 0.23.1) lib/next_ls.ex:1356: anonymous fn/5 in NextLS.dispatch_to_workspace/3
+    (elixir 1.17.2) lib/registry.ex:488: Registry.dispatch/4
+    (next_ls 0.23.1) lib/next_ls.ex:1354: NextLS.dispatch_to_workspace/3
+    (next_ls 0.23.1) lib/next_ls.ex:632: NextLS.handle_request/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:350: anonymous fn/2 in GenLSP.loop/3
+
+
+21:04:07.176 [debug] sent notification server -> client window/logMessage
+
+21:04:07.176 [info] Connected to node nextls-runtime-1733259844055729334@nightfury-darwin
+
+21:04:07.423 [debug] sent notification server -> client $/progress
+
+21:04:07.424 [debug] sent notification server -> client window/logMessage
+
+21:04:07.424 [debug] Runtime for folder aoc is ready...
+
+21:04:07.425 id=34 [debug] sent request server -> client window/workDoneProgress/create
+
+21:04:07.425 [debug] sent notification server -> client $/progress
+
+21:04:07.448 [debug] sent notification server -> client window/logMessage
+
+21:04:07.448 [info] Compiling 1 file (.ex)
+
+
+21:04:07.492 [debug] sent notification server -> client $/progress
+
+21:04:07.492 [debug] sent notification server -> client window/logMessage
+
+21:04:07.492 [info] Compiled aoc!
+
+21:04:07.592 [debug] handled notification client -> server textDocument/didChange in 110µs
+
+21:04:07.844 [debug] sent notification server -> client window/logMessage
+
+21:04:07.844 [info] expanding on the runtime node
+
+21:04:07.859 id=5 [debug] handled request client -> server textDocument/completion in 14ms
+
+21:04:09.151 id=6 [debug] handled request client -> server completionItem/resolve in 15ms
+
+21:04:10.238 [debug] handled notification client -> server textDocument/didChange in 323µs
+
+21:04:10.956 [debug] handled notification client -> server textDocument/didChange in 270µs
+
+21:04:11.485 [debug] handled notification client -> server textDocument/didChange in 234µs
+
+21:04:12.558 [debug] handled notification client -> server textDocument/didChange in 269µs
+
+21:04:12.931 [debug] handled notification client -> server textDocument/didChange in 284µs
+
+21:04:13.092 [debug] handled notification client -> server textDocument/didChange in 148µs
+
+21:04:13.344 [debug] sent notification server -> client window/logMessage
+
+21:04:13.344 [info] expanding on the runtime node
+
+21:04:13.355 id=7 [debug] handled request client -> server textDocument/completion in 11ms
+
+21:04:13.683 [debug] handled notification client -> server textDocument/didChange in 171µs
+
+21:04:14.134 [debug] handled notification client -> server textDocument/didChange in 320µs
+
+21:04:14.373 [debug] handled notification client -> server textDocument/didChange in 232µs
+
+21:04:14.505 [debug] handled notification client -> server textDocument/didChange in 156µs
+
+21:04:14.758 [debug] sent notification server -> client window/logMessage
+
+21:04:14.758 [info] expanding on the runtime node
+
+21:04:14.768 id=8 [debug] handled request client -> server textDocument/completion in 10ms
+
+21:04:15.079 id=9 [debug] handled request client -> server completionItem/resolve in 1ms
+
+21:04:15.611 [debug] handled notification client -> server textDocument/didChange in 290µs
+
+21:04:17.321 id=10 [debug] handled request client -> server textDocument/formatting in 12ms
+
+21:04:17.322 [debug] handled notification client -> server textDocument/didChange in 156µs
+
+21:04:17.333 id=98 [debug] sent request server -> client window/workDoneProgress/create
+
+21:04:17.333 [debug] handled notification client -> server textDocument/didSave in 3ms
+
+21:04:17.334 [debug] sent notification server -> client $/progress
+
+21:04:17.338 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 4ms
+
+21:04:17.340 [debug] sent notification server -> client window/logMessage
+
+21:04:17.340 [info] Compiling 1 file (.ex)
+
+
+21:04:17.351 [debug] sent notification server -> client window/logMessage
+
+21:04:17.351 [info] Generated aoc app
+
+
+21:04:17.352 [debug] sent notification server -> client $/progress
+
+21:04:17.352 [debug] sent notification server -> client window/logMessage
+
+21:04:17.352 [info] Compiled aoc!
