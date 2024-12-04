@@ -1,5 +1,5 @@
 alias DayOne.Input
-alias DayOne.DayOne
+alias DayOne.Solution
 
 input =
   """
