@@ -1,5 +1,5 @@
-alias DayOne.InputParser
-alias DayOne.PartOne
+alias DayOne.Input
+alias DayOne.DayOne
 
 input =
   """
